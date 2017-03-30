@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The Controller sheet is successfully loaded]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Test Script Execution Status" duration-ms="83468" started-at="2017-03-30T10:26:44Z" finished-at="2017-03-30T10:28:07Z">
+    <groups>
+    </groups>
+    <test name="SignInTestcase" duration-ms="83468" started-at="2017-03-30T10:26:44Z" finished-at="2017-03-30T10:28:07Z">
+      <class name="com.ta3s.testcases.LoginTest">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ta3s.testcases.LoginTest@7946e1f4]" name="initiate" is-config="true" duration-ms="52133" started-at="2017-03-30T15:55:52Z" finished-at="2017-03-30T15:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ta3s.testcases.LoginTest@7946e1f4]" name="setUp" is-config="true" duration-ms="14471" started-at="2017-03-30T15:56:44Z" finished-at="2017-03-30T15:56:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Controller sheet is successfully loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:com.ta3s.testcases.LoginTest@7946e1f4]" name="SignIn" duration-ms="68719" started-at="2017-03-30T15:56:59Z" finished-at="2017-03-30T15:58:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ta3s.testcases.LoginTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="793" started-at="2017-03-30T15:58:07Z" finished-at="2017-03-30T15:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ta3s.testcases.LoginTest -->
+    </test> <!-- SignInTestcase -->
+  </suite> <!-- Regression Test Script Execution Status -->
+</testng-results>
